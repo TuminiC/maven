@@ -6,14 +6,15 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        int a1 = 11;
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        switch (a1){
+            case 1->System.out.println("X is 1");
+            case 2->System.out.println("X is 2");
+            case 3->System.out.println("X is 3");
+            default->
+                    System.out.println("X is "+a1);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
         }
     }
 }
