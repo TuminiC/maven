@@ -14,6 +14,7 @@ public class Main {
             case 3->System.out.println("X is 3");
             default->
                     System.out.println("X is "+a1);
+            
 
         }
     }
