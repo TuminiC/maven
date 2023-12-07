@@ -5,10 +5,10 @@ import java.sql.SQLOutput;
 
 public class Sample {
     public static void main(String[] args) {
-        float max = 3.40282346638528860e+38f;
+       /* float max = 3.40282346638528860e+38f;
         float min = 1.40129846432481707e-45f;
         double doubleMax = 3.40282346638528860e+38d;
-        double doubleMin = 4.94065645841246544e-324d;
+        double doubleMin = 4.94065645841246544e-324d;*/
         /* System.out.println(doubleMax);
         System.out.printf("%.2f",max);
         System.out.println();
@@ -20,16 +20,16 @@ public class Sample {
         byte a3= (byte)a2;
 */
         //Ternary operator:
-        int x=11; int y =5;
+        //int x=11; int y =5;
 
-        String result = (x==10)? "X is 10": "X is not 10";
-       // System.out.println(result);
+        // String result = (x==10)? "X is 10": "X is not 10";
+        // System.out.println(result);
 
-     //   if (y ==15);
-       // System.out.println("Condition is true");
+        //   if (y ==15);
+        // System.out.println("Condition is true");
 
-        float g = 1.2f;
-      //  System.out.println(g%y);
+        // float g = 1.2f;
+        //  System.out.println(g%y);
 /*
         int a1 = 11;
         switch (a1){
@@ -51,6 +51,11 @@ public class Sample {
         //to stop statement need to explicitly apply break and continue
 //adding default before case requires default to have a break statement
 
-
+        for (int i = 1; i < 10; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print('@');
+            }
+            System.out.println();
+        }
     }
 }
