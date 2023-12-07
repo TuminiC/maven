@@ -22,14 +22,14 @@ public class Sample {
         //Ternary operator:
         //int x=11; int y =5;
 
-       // String result = (x==10)? "X is 10": "X is not 10";
-       // System.out.println(result);
+        // String result = (x==10)? "X is 10": "X is not 10";
+        // System.out.println(result);
 
-     //   if (y ==15);
-       // System.out.println("Condition is true");
+        //   if (y ==15);
+        // System.out.println("Condition is true");
 
-       // float g = 1.2f;
-      //  System.out.println(g%y);
+        // float g = 1.2f;
+        //  System.out.println(g%y);
 /*
         int a1 = 11;
         switch (a1){
@@ -51,8 +51,8 @@ public class Sample {
         //to stop statement need to explicitly apply break and continue
 //adding default before case requires default to have a break statement
 
-        for(int i =1; i<10; i++){
-            for (int j=1; j<=i;j++){
+        for (int i = 1; i < 10; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print('@');
             }
             System.out.println();
