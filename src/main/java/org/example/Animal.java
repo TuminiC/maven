@@ -15,7 +15,7 @@ public class Animal {
 
 
     public String ShowInfo() {
-        return "Animal{" +
+        return this.animal_type+"{" +
                 "Height=" + Height +
                 ", Weight=" + Weight +
                 ", animal_type='" + animal_type + '\'' +

@@ -8,7 +8,7 @@ public class Crocodile extends Reptile {
 
     @Override
     public String ShowInfo() {
-        return "Crocodile{" +
+        return "{" +
                 super.ShowInfo() +
                 "}";
     }
