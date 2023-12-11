@@ -14,7 +14,7 @@ public class Reptile extends Animal{
 
 
     public String ShowInfo() {
-        return "Reptile{" +
+        return "" +
                 "skin='" + skin + '\'' +
                 ", eggs='" + eggs + '\'' +
                 ", bone='" + bone + '\'' +

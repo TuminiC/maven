@@ -17,9 +17,9 @@ public class Main {
 
 
         }*/
-        Crocodile croc = new Crocodile(2,3,"Coc","AA","Hard-shelled");
+        Crocodile croc = new Crocodile(2,3,"Crocodile","AA","Hard-shelled");
         System.out.println(croc.ShowInfo());
-        Eel eel = new Eel(3,1,"eel","B",true);
+        Eel eel = new Eel(3,1,"Eel","B",true);
         System.out.println(eel.ShowInfo());
 
         Eagle eagle=new Eagle(1,1,"Eagle","AA",true);
